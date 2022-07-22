@@ -1,0 +1,96 @@
+.imageSlides {
+    display: none
+  }
+   
+  img {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+   
+  /* Our main images-slideshow container */
+  .images-slideshow {
+    max-width: 612px;
+    position: relative;
+    margin: auto;
+  }
+   
+  /*Style for ">" next and "<" previous buttons */
+  .slider-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 8px 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+  }
+   
+  /* setting the position of the previous button towards left */
+  .previous {
+    left: 2%;
+  }
+   /* setting the position of the next button towards right */
+  .next {
+    right: 2%;
+  }
+   
+  /* On hover, adding a background color */
+  .previous:hover,
+  .next:hover {
+    color: rgb(255, 253, 253);
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  *{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+}
+
+.screen{
+  margin-top: 10px;
+    background-color: peru;
+    padding: 15px;
+    font-size: 1.5em;
+    width: 100%;
+    border: none;
+    height: 100px;
+   
+}
+.calculator{
+
+ 
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.btnParent button{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: none;
+    font-size: 1.5em;
+    border:  1px solid white;
+
+}
+.btnParent{
+
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
